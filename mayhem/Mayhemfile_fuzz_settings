@@ -1,0 +1,9 @@
+project: savantenvs/toxic
+target: fuzz_settings
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_settings/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_settings
+    libfuzzer: true
+    timeout: 10

@@ -1,0 +1,9 @@
+project: savantenvs/toxic
+target: dht_nodes
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/dht_nodes/testsuite
+cmds:
+  - cmd: /mayhem/afl_file_loaders dht @@
+    afl: true
+    timeout: 10

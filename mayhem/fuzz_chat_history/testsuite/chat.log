@@ -1,0 +1,12 @@
+{0} [2024/01/02 10:11:12] alice: hello there
+{1} [2024/01/02 10:11:20] bob: hi alice
+{2} [2024/01/02 10:12:00] * alice waves
+{3} [2024/01/02 10:12:30] system message
+{4} [2024/01/02 10:13:00] alice has come online
+{5} [2024/01/02 10:14:00] alice has gone offline
+{6} [2024/01/02 10:15:00] carol: private hi
+{7} [2024/01/02 10:15:10] bob: private reply
+{8} [2024/01/02 10:16:00] dave has kicked eve
+{9} [2024/01/02 10:16:30] dave is the founder
+{10} [2024/01/02 10:17:00] alice is now known as alicia
+{11} [2024/01/02 10:18:00] bob set the topic to: rust vs c
